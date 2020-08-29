@@ -159,18 +159,18 @@ void case_C() {
 
 void case_D() {
 	std::cout << "Case D" << std::endl;
-	Array a1{"a1"};
-	a1 = Array{"a1"};
+	Array a1{"a"};
+	a1 = Array{"a_rvalue"};
 	a1.append(456);
 	a1.print();
 
 	// Case D
-	// Constructing a1
-	// Constructing a1
-	// Move Assignment from a1 to a1
-	// Destructing a1
-	// a1[456]
-	// Destructing a1
+	// Constructing a
+	// Constructing a_rvalue
+	// Move Assignment from a_rvalue to a
+	// Destructing a_rvalue
+	// a[456]
+	// Destructing a
 }
 
 void case_E() {

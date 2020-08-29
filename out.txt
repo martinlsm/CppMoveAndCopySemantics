@@ -17,12 +17,12 @@ a2[456]
 Destructing a2
 Destructing a1
 Case D
-Constructing a1
-Constructing a1
-Move Assignment from a1 to a1
-Destructing a1
-a1[456]
-Destructing a1
+Constructing a
+Constructing a_rvalue
+Move Assignment from a_rvalue to a
+Destructing a_rvalue
+a[456]
+Destructing a
 Case E
 Constructing a
 a[1, 2, 3]

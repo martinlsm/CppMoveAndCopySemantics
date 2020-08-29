@@ -1,0 +1,45 @@
+Case A
+Constructing a1
+Destructing a1
+Case B
+Constructing a1
+Copy Construction from a1 to 
+a1[123]
+[123, 456]
+Destructing 
+Destructing a1
+Case C
+Constructing a1
+Constructing a2
+Copy Assignment from a2 to a1
+a1[456]
+a2[456]
+Destructing a2
+Destructing a1
+Case D
+Constructing a1
+Constructing a1
+Move Assignment from a1 to a1
+Destructing a1
+a1[456]
+Destructing a1
+Case E
+Constructing a
+a[1, 2, 3]
+Destructing a
+Case F
+Constructing a
+Constructing ac
+Move Assignment from ac to a
+Destructing ac
+a[1, 2, 3]
+Destructing a
+Case G
+Constructing a1
+Constructing a1
+Move Assignment from a1 to a1
+Destructing a1
+Move Constructor from a1
+a1[1, 2, 3]
+Destructing a1
+Destructing DESTRUCTED
